@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}   
+
+.navlighcolor{
+    color: #A49A93 !important;
+    background-color: #fff;
+}
+.navlighcolor:hover{
+    color: #E42329 !important;
+}
+
+.carousel-item img {
+    height: 80vh;
+    width: 100%;
+}
+
+/* shopbycategory css */
+.shopcat h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.shopcat span {
+    color: #808080;
+}
+
+.shopcaticon {
+    padding: 10px;
+}
+
+.shopcaticon svg {
+    width: 50px;
+}
+
+.shopcaticon p {
+  
+    font-weight: 900;
+    margin-top: 15px;
+    font-size: 15px; 
+}
+
+
+.funda {
+    margin: 35px;
+}
+
+.navbar-brand {
+    color: #E53035 !important;
+    font-size: 51px;
+    font-weight: 600;
+}
+
+/* serchnoxcss */
+.serchbox {
+    margin: 50px 20px;
+}
+
+.serchbox .input-group input[type=text] {
+    height: 40px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 0px;
+    border: 1px solid #E42329;
+    border-right: 1px solid #ffff !important;
+    float: left;
+    width: 80%;
+}
+
+.input-group-append button {
+    float: left;
+    width: 25%;
+    height: 40px;
+    border-radius: 0px;
+    color: #9A9A9A;
+    border: 1px solid #E42329;
+    border-left: 1px solid #ffff !important;
+    cursor: pointer;
+    padding: 15px 25px;
+    line-height: 15px;
+}
+
+
+.firstiocn {
+    margin: 55px;
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: center;
+}
+
+.firstiocn div {
+    margin: 0px 20px;
+    font-size: 20px;
+}
+.count{
+    position: relative;
+}
+.count1{
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #E42329;
+    border-radius: 50%;
+    padding: 4px 6px;
+    color: #ffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* secondnavabr css */
+.secondnav{
+    width: 95%;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: -40px;
+ }
+
+.dropdown a{
+    font-size: 14px;
+    font-weight: bold;          
+    color: #000; 
+    /* margin-top: -40px; */
+} 
+.dropdown a:hover{
+    color: #E42329;
+    background-color: #fff;
+}
+.dropdown li{
+    padding: 5px 0px;
+}
+
+/* televsioncssdiv */
+.televiosndiv{
+    width:95vw;
+    padding: 20px;
+    transform: translateX(-2%);
+    margin: 0px 10px;
+}
+.smallapll{
+    width: 940%;
+    transform: translate(-77%);
+    padding: 20px;
+}
+.gadgets{
+    width: 95vw;
+    transform: translate(-62%);
+    padding: 20px;
+}
+.applin{
+    width: 95vw;
+    transform: translateX(-12vw);
+    padding: 20px;
+}
+
+.groom{
+    width: 130%;
+}
+
+#bttop{
+display: none;
+position: fixed;
+bottom: 20px;
+right: 34px;
+font-size: 20px;
+background-color: #E53035;
+color: white;
+cursor: pointer;
+padding: 5px;
+width: 40px;
+height: 40px;
+text-align: center;
+}
+
+#bttop:hover {
+color: white;
+background-color: #f00a11 !important;
+}
+.what{
+position: fixed;
+bottom: 70px;
+right: 25px;
+height: 60px;
+width: 60px;
+background-color: #09AE56;
+border-radius: 50%;
+padding: 10px;
+z-index: 1;
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1200px) {
+    /* second navabarcss */
+    
+
+    .navbar-brand {
+    font-size: 40px !important;
+    }
+    /* topiconcsss */
+    .firstiocn {
+        padding-left: 0px !important;
+    }
+
+    .firstiocn div {
+        margin: 0px 15px !important;
+        font-size: 20px;
+    }
+
+    /* serchnoxcss */
+    .serchbox {
+        margin: 50px 0px !important;
+        font-size: 20px;
+    }
+
+    .serchbox  input[type=text] {
+        height: 32px !important;
+    width: 55% !important;
+    margin: 0px 50px;
+    }
+
+    .input-group-append button{
+    width: 40% !important;
+    height: 25px !important;
+    padding-top: -50px !important;
+    /* padding: 15px; */
+    margin-left: -53px !important;
+    }
+    
+}
+
+/* Medium screens */
+@media only screen and (min-width: 421px) and (max-width: 780px) {
+
+    /* carousel css */
+    .carousel-item img {
+        height: 45vh;
+        width: 100%;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    /* shopbycategory css */
+    .shopcaticon {
+        padding: 10px 40px;
+    }
+    .shopcaticon p {
+        font-size: 12px;
+    }
+    .shopcaticon svg {
+        width: 40px;
+    }
+
+    /* serchnoxcss */
+    /* .serchbox {
+        margin: 50px 30px !important;
+    } */
+    
+     /* fundacss */
+     .funda {
+        margin: 50px 10px !important;
+    }
+
+    .navbar-brand {
+        font-size: 25px !important;
+    }
+
+    /* topiconcsss */
+    .firstiocn {
+        padding-left: 0px !important;
+    }
+
+    .firstiocn div {
+        margin: 0px 5px !important;
+        font-size: 20px;
+    }
+    .fa-heart {
+        display: none;
+    }
+
+    /* serchnoxcss */
+    .serchbox {
+        margin: 50px 0px !important;
+        font-size: 20px;
+    }
+
+    .serchbox input[type=text] {
+        display: none;
+    }
+
+    .input-group-append button {
+        border: none !important;
+    }
+
+}
+
+/* small screens */
+@media only screen and (min-width: 70px) and (max-width: 420px) {
+
+    /* carousel css */
+    .carousel-item img {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    /* shopbycategory css */
+    .shopcaticon p {
+        font-size: 12px;
+    }
+
+    .shopcaticon svg {
+        width: 40px;
+    }
+
+    /* fundacss */
+    .funda {
+        margin: 50px 10px !important;
+    }
+
+    .navbar-brand {
+        font-size: 25px !important;
+    }
+
+    /* topiconcsss */
+
+    .firstiocn div {
+        margin: 0px 5px !important;
+        font-size: 20px;
+    }
+    .fa-heart {
+        display: none;
+    }
+
+    /* serchnoxcss */
+    .serchbox {
+        margin: 50px 0px !important;
+        font-size: 20px;
+    }
+
+    .serchbox input[type=text] {
+        display: none;
+    }
+
+    .input-group-append button {
+        border: none !important;
+    }
+
+
+}
+
+/* ankit code start */
+.footone{
+    background-color:  #E42329;
+}
+.footrs i{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding:15px;
+    font-size: 40px;
+}
+.footrs p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.footfund1{
+    background-color: #000;
+}
+.footfund h1{
+    color: red;
+    font-size: 80px;
+    float: left;
+    padding-left: 30px;
+}
+.footfund3 {
+    text-align:right;
+    color: gray;
+}
+.footfund3 ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.footfund3 ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footfund3 ul li:hover{
+    color: #E53035;
+}
+.footfund4 ul{
+    list-style: none;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.footfund4 ul li{
+display: inline-block;
+color: grey;
+margin-top: 30px;
+}
+
+.footfund5 p{
+    font-size: 14px;
+    color: #ffff;    
+    margin: 25px 60px;
+    font-weight: 700;
+}
+.footfund5 span{
+    color: #f00a11;
+    font-weight: 600;
+}
+.footfund6 p{ 
+    font-size: 14px;
+    text-align: right;
+    color: #ffff;    
+    margin: 25px 60px;
+    font-weight: 700;
+}
+.footfund6 span{
+    color: #f00a11;
+    font-weight: 600;
+}
+/* ankit code end */
+.ship{
+            
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+h3{
+    color: rgb(75, 74, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+h1{
+    font-weight: 1000;
+    font-size: 30px;
+}
+
